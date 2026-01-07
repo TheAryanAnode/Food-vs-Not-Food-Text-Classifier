@@ -1,4 +1,4 @@
-# Food vs Not-Food Text Classifier 🍔❌
+# Food vs Not-Food Text Classifier 
 
 This project fine-tunes a **DistilBERT-based text classification model** to determine whether a sentence is *literally about food* or *not about food*, even when food-related language is used metaphorically (e.g., “half-baked ideas”, “chewing on the problem”).
 
@@ -6,7 +6,7 @@ The model is trained using the Hugging Face ecosystem, evaluated for accuracy, b
 
 ---
 
-## 🚀 Features
+## Features
 
 - Fine-tuned **DistilBERT** for binary text classification
 - Handles metaphorical and misleading food-related language
@@ -18,7 +18,7 @@ The model is trained using the Hugging Face ecosystem, evaluated for accuracy, b
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source:** `mrdbourke/learn_hf_food_not_food_image_captions`
 - **Classes:**
@@ -28,7 +28,7 @@ The model is trained using the Hugging Face ecosystem, evaluated for accuracy, b
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - **Base model:** `distilbert-base-uncased`
 - **Task:** Binary sequence classification
@@ -43,7 +43,7 @@ The model is trained using the Hugging Face ecosystem, evaluated for accuracy, b
 
 ---
 
-## 📊 Training & Evaluation
+## Training & Evaluation
 
 - Tracks training and validation loss per epoch
 - Automatically loads the best-performing model
@@ -54,7 +54,7 @@ Loss curves are visualized using Matplotlib to monitor overfitting and convergen
 
 ---
 
-## ⚡ Inference & Performance
+## Inference & Performance
 
 Supports:
 - Single-sentence inference
@@ -66,7 +66,7 @@ Inference speed is benchmarked across increasing batch sizes to demonstrate perf
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Hugging Face Hub
 The trained model is uploaded to the Hugging Face Hub for easy reuse:
